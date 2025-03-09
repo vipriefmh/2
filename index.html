@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sayang!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <h1>Selamat Ulang Tahun, Sayang! 🎉</h1>
+        <p id="countdown"></p>
+        <p>Klik tombol di bawah untuk melihat kejutan spesial!</p>
+        <button class="btn" id="loveButton">Klik Aku</button>
+    </div>
+
+    <div id="surpriseContainer" class="hidden">
+        <h2>Surat Cinta untukmu ❤️</h2>
+        <p id="loveLetterText"></p>
+
+        <div class="music-container">
+            <iframe id="playlist" 
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1DX3rxVfibe1L0" 
+                width="80%" 
+                height="200" 
+                frameborder="0" 
+                allowtransparency="true" 
+                allow="encrypted-media">
+            </iframe>
+        </div>
+
+        <a id="whatsappLink" href="#" target="_blank" class="btn">Kirim Pesan ke WhatsApp</a>
+    </div>
+
+    <canvas id="heartCanvas"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
