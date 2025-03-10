@@ -42,7 +42,7 @@
         typeWriter();
 
         let pesan = "Hallo mas arief nya lia yang paling manis 💖, lia udah baca surat mas loh..., love u so much mas 🎂🥰";
-        let url = `https://api.whatsapp.com/send?text=${encodeURIComponent(pesan)}`;
+        let url = `https://wa.me//+6287722666780?text=${encodeURIComponent(pesan)}`;
         document.getElementById("whatsappLink").href = url;
 
         startHeartAnimation();
