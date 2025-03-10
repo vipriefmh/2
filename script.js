@@ -28,7 +28,7 @@
         document.getElementById("mainContainer").style.display = "none";
         document.getElementById("surpriseContainer").style.display = "block";
 
-        let text = "Sayangku ❤️, setiap hari bersamamu adalah kebahagiaan terbesar dalam hidupku. Aku mencintaimu lebih dari kata-kata bisa ungkapkan. Semoga ulang tahunmu penuh keajaiban dan cinta. 💖";
+        let text = "Happy Sweet Seventeen, sayang...🌷 Hari ini adalah hari spesial karena 17 tahun yang lalu, seseorang yang begitu berharga lahir ke dunia—dan aku bersyukur bisa mengenal dan menyayangimu. Semoga di usia baru ini, kamu semakin bahagia, semakin kuat menghadapi dunia, dan semakin dekat dengan impianmu. Aku akan selalu ada di sisimu, mendukungmu dalam setiap langkah. Terima kasih sudah menjadi dirimu, seseorang yang begitu berarti dalam hidupku. Happy Sweet Seventeen, semoga setiap harimu penuh kebahagiaan. Aku sayang kamu. ❤️";
         let i = 0;
         let speed = 50;
 
@@ -41,7 +41,7 @@
         }
         typeWriter();
 
-        let pesan = "Sayangku 💖, selamat ulang tahun! Aku mencintaimu! 🎂🥰";
+        let pesan = "Hallo mas arief nya lia yang paling manis 💖, lia udah baca surat mas loh..., love u so much mas 🎂🥰";
         let url = `https://api.whatsapp.com/send?text=${encodeURIComponent(pesan)}`;
         document.getElementById("whatsappLink").href = url;
 
