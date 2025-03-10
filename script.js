@@ -14,7 +14,7 @@
         let minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
         let seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-        document.getElementById("countdown").innerHTML = `Ulang tahun dalam: ${days} hari, ${hours} jam, ${minutes} menit, ${seconds} detik`;
+        document.getElementById("countdown").innerHTML = `Hari Spesial Dalam: ${days} hari, ${hours} jam, ${minutes} menit, ${seconds} detik`;
 
         if (timeDiff <= 0) {
             document.getElementById("countdown").innerHTML = "🎉 Selamat Ulang Tahun, Sayang! 🎂💖";
