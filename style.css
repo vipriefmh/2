@@ -29,6 +29,8 @@ body {
     transition: all 0.5s ease-in-out;
     width: 80%;
     max-width: 500px;
+    margin: 20px auto;
+    box-sizing: border-box;
 }
 
 /* Tombol */
@@ -99,3 +101,44 @@ canvas {
     pointer-events: none;
     z-index: -1;
 }
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    .container, #surpriseContainer {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    #loveLetterText {
+        font-size: 18px;
+    }
+
+    .floating-heart {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container, #surpriseContainer {
+        width: 85%;
+        padding: 18px;
+    }
+
+    .btn {
+        font-size: 17px;
+        padding: 11px 22px;
+    }
+
+    #loveLetterText {
+        font-size: 19px;
+    }
+
+    .floating-heart {
+        font-size: 18px;
+    }
+    }
